@@ -18,7 +18,6 @@ This application follows SOLID design principles and implements several design p
 - **Real-time Validation**: Granular form validation with immediate feedback
 - **API Integration**: Full backend simulation with realistic responses
 - **Cross-platform**: Compatible with iOS, Android, and Web
-- **Comprehensive Testing**: 100% test coverage with 30+ test cases
 - **Modern UI**: Clean, professional banking interface
 
 ## 📱 Transfer Types
@@ -42,7 +41,6 @@ This application follows SOLID design principles and implements several design p
 - **Frontend**: React Native with Expo
 - **Backend**: Node.js with Express
 - **State Management**: Zustand
-- **Testing**: Jest + React Native Testing Library
 - **Navigation**: Expo Router with tabs
 - **Icons**: Lucide React Native
 - **Styling**: StyleSheet with 8px spacing system
@@ -181,17 +179,6 @@ The server includes pre-configured demo accounts:
 └── payment.ts                 # TypeScript definitions
 ```
 
-## 🎯 Test Coverage
-
-The application includes comprehensive test suites covering:
-
-1. **Component Rendering** (6 test cases)
-2. **User Input & State Management** (4 test cases)
-3. **Form Validation** (8 test cases)
-4. **Form Submission** (5 test cases)
-5. **Accessibility** (2 test cases)
-6. **API Integration** (10+ test cases)
-7. **Server Endpoints** (8+ test cases)
 
 ## 🚀 Getting Started
 
@@ -203,6 +190,3 @@ The application includes comprehensive test suites covering:
 
 The app will automatically connect to the local API server for realistic payment processing simulation.
 
-## 📄 License
-
-This project is for demonstration purposes and showcases modern React Native development practices with clean architecture principles.
