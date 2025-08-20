@@ -40,7 +40,13 @@ export default function PaymentFormUI({
         <TextInput
           style={[styles.input, error ? styles.inputError : null]}
           value={value}
-          onChangeText={(text) => onFieldChange(field.id, text)}
+          onChangeText={(text) => {
+            // Convert to uppercase for IBAN and SWIFT fields
+            const newText = field.id === 'iban' || field.id === 'swiftCode' 
+              ? text.toUpperCase()
+              : text;
+            onFieldChange(field.id, newText);
+          }}
           placeholder={field.placeholder}
           keyboardType={field.keyboardType || 'default'}
           maxLength={field.maxLength}
