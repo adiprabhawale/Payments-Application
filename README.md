@@ -49,7 +49,14 @@ This application follows SOLID design principles and implements several design p
 
 ## 📦 Installation
 
+### Prerequisites
+
+- Node.js v20.19.1 (Required)
+
 ```bash
+# Select node version with nvm
+nvm use
+
 # Install dependencies
 npm install
 
